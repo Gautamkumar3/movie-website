@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies App</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1>TMDB Movies</h1>
+    <h2 id="trending"><a href="trending.html">Trending</a></h2>
+    <div class="center">
+        <h2>Search your Movies Here</h2>
+
+        <input type="text" id="name" placeholder="Movies by name" oninput="debounceFunc(main,1000)">
+        <button onclick="showData()">Search</button>
+    </div>
+
+    <div id="abc">
+        <div id="suggestion">
+
+        </div>
+    </div>
+
+
+    <div id="container">
+
+    </div>
+
+</body>
+
+</html>
+
+<script src="index.js">
+
+
+
+
+
+
+
+</script>
